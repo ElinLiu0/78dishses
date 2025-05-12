@@ -29,6 +29,8 @@ const ar = [
             "侧瞄具"
         ],
         type: "步枪",
+        weight: 4.0,
+        size: 10
     },
     {
         name: "M7战斗步枪",
@@ -63,6 +65,8 @@ const ar = [
             "侧瞄具",
         ],
         type: "步枪",
+        weight: 4.3,
+        size: 10
     },
     {
         name: "ASh-12战斗步枪",
@@ -92,6 +96,8 @@ const ar = [
             "侧瞄具",
         ],
         type: "步枪",
+        weight: 4.2,
+        size: 10
     },
     {
         name: "K416突击步枪",
@@ -127,6 +133,8 @@ const ar = [
             "枪托套件"
         ],
         type: "步枪",
+        weight: 4.0,
+        size: 10
     },
     {
         name: "AS Val突击步枪",
@@ -156,6 +164,8 @@ const ar = [
             "拉机柄"
         ],
         type: "步枪",
+        weight: 4.7,
+        size: 10
     },
     {
         name: "M4A1突击步枪",
@@ -192,6 +202,8 @@ const ar = [
             "枪托套件"
         ],
         type: "步枪",
+        weight: 3.88,
+        size: 10
     },
     {
         name: "AUG突击步枪",
@@ -221,6 +233,8 @@ const ar = [
             "托腮板"
         ],
         type: "步枪",
+        weight: 3.6,
+        size: 8
     },
     {
         name: "AK-12突击步枪",
@@ -252,9 +266,11 @@ const ar = [
             "拉机柄"
         ],
         type: "步枪",
+        weight: 4.1,
+        size: 10
     },
     {
-        name: "SC步枪-H战斗步枪",
+        name: "SCAR-H战斗步枪",
         basic_damage: 40,
         benifit_shootrange: 40,
         recoil: 40,
@@ -280,6 +296,8 @@ const ar = [
             "后握把"
         ],
         type: "步枪",
+        weight: 4.29,
+        size: 10
     },
     {
         name: "AKM突击步枪",
@@ -310,6 +328,8 @@ const ar = [
             "拉机柄"
         ],
         type: "步枪",
+        weight: 4.3,
+        size: 10
     },
     {
         name: "腾龙突击步枪",
@@ -343,6 +363,8 @@ const ar = [
             "枪托垫"
         ],
         type: "步枪",
+        weight: 2.6,
+        size: 10
     },
     {
         name: "SG552突击步枪",
@@ -372,6 +394,8 @@ const ar = [
             "侧瞄具"
         ],
         type: "步枪",
+        weight: 4.47,
+        size: 10
     },
     {
         name: "G3战斗步枪",
@@ -402,6 +426,8 @@ const ar = [
             "侧瞄具"
         ],
         type: "步枪",
+        weight: 4.38,
+        size: 10
     },
     {
         name: "QBZ95-1突击步枪",
@@ -429,6 +455,8 @@ const ar = [
             "护木套件"
         ],
         type: "步枪",
+        weight: 4.75,
+        size: 10
     },
     {
         name: "PTR-32突击步枪",
@@ -458,9 +486,11 @@ const ar = [
             "侧瞄具"
         ],
         type: "步枪",
+        weight: 5.49,
+        size: 10
     },
     {
-        name: "C步枪-15突击步枪",
+        name: "CAR-15突击步枪",
         basic_damage: 27,
         benifit_shootrange: 40,
         recoil: 50,
@@ -487,6 +517,8 @@ const ar = [
             "枪托套件"
         ],
         type: "步枪",
+        weight: 3.43,
+        size: 10
     },
     {
         name: "M16A4突击步枪",
@@ -516,6 +548,8 @@ const ar = [
             "枪托套件"
         ],
         type: "步枪",
+        weight: 3.97,
+        size: 10
     },
     {
         name: "AKS-74U突击步枪",
@@ -547,32 +581,7 @@ const ar = [
             "拉机柄"
         ],
         type: "步枪",
-    },
-    {
-        name: "Vector冲锋枪",
-        basic_damage: 32,
-        benifit_shootrange: 20,
-        recoil: 38,
-        scope_open_speed: 69,
-        holding_stability: 42,
-        hipfire_accuracy: 52,
-        armor_damage: 28,
-        shoot_speed: 1091,
-        capacity: 17,
-        fire_mode: "全自动/单发/连发",
-        muzzle_base_speed: 500,
-        noise_broadcast_distance: 300,
-        ammo_type: ".45 ACP",
-        supported_components: [
-            "枪管",
-            "枪口",       // 修正OCR"检口"
-            "枪托",
-            "弹匣",
-            "弹匣座",
-            "前握把",
-            "瞄准镜",
-            "上导轨",
-            "侧瞄具"     // 修正OCR"初瞄具"
-        ]
+        weight: 4.09,
+        size: 10
     }
 ]
